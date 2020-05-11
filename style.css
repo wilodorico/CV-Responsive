@@ -1,4 +1,106 @@
+/* Général */
+
+body {
+    
+}
+
+/* Header */
+
 #header {
     display: flex;
+    align-items: center;
+    height: 300px;
 }
+#photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 30%;
+    background-color: #54a0ff;
+}
+#photo img {
+    border-radius: 50%;
+    border: 2px solid #2e86de;
+    width: 200px;
+    height: 200px;
+}
+#titre {
+    font-size: 1.3em;
+    margin-left: 60px;
+}
+#titre h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+#titre h2 {
+    margin-top: 0;
+}
+.color-text {
+    color: #54a0ff;
+}
+.underline {
+    text-decoration: 2px underline #54a0ff;
+}
+
+/* Bloc */
+
+#bloc {
+    display: flex;
+    background: rgb(165, 143, 143);
+}
+
+/* Bloc-gauche */
+
+#bloc-gauche {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #54a0ff;
+}
+
+.titre-gauche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #222f3e;
+    color: #54a0ff;
+    text-transform: uppercase;
+    margin: 0;
+}
+.contact p {
+    padding-left: 45px;
+}
+
+
+/* Bloc-droite */
+
+#bloc-droite {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    
+}
+
+/* bloc-formation */
+
+.formations {
+    margin-left: 60px;
+    margin-right: 45px;
+    background: royalblue;
+}
+.titre-droite {
+    text-transform: uppercase;
+    
+}
+
+.date {
+    display: flex;
+    align-items: center;
+}
+.date-2020 {
+    width: 30%;
+}
+
 
