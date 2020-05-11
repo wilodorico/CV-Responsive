@@ -88,7 +88,6 @@ body {
 .formations {
     margin-left: 60px;
     margin-right: 45px;
-    background: royalblue;
 }
 .titre-droite {
     text-transform: uppercase;
@@ -97,10 +96,18 @@ body {
 
 .date {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    background: royalblue;
+    margin-top: 20px;
 }
 .date-2020 {
     width: 30%;
+}
+.date-2020 i {
+    margin-right: 10px;
+}
+.detail {
+    
 }
 
 
