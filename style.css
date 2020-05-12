@@ -1,7 +1,24 @@
 /* Général */
 
 body {
-    
+  color: #222f3e;
+  margin: 0;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+h4, h3 {
+    margin-top: 0;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+.fas {
+    color: #54a0ff;
 }
 
 /* Header */
@@ -11,6 +28,7 @@ body {
     align-items: center;
     height: 300px;
 }
+
 #photo {
     display: flex;
     justify-content: center;
@@ -19,26 +37,32 @@ body {
     width: 30%;
     background-color: #54a0ff;
 }
+
 #photo img {
     border-radius: 50%;
     border: 2px solid #2e86de;
     width: 200px;
     height: 200px;
 }
+
 #titre {
     font-size: 1.3em;
     margin-left: 60px;
 }
+
 #titre h1 {
-    text-transform: uppercase;
     margin-bottom: 0;
 }
+
 #titre h2 {
     margin-top: 0;
+    text-transform: none;
 }
+
 .color-text {
     color: #54a0ff;
 }
+
 .underline {
     text-decoration: 2px underline #54a0ff;
 }
@@ -47,7 +71,6 @@ body {
 
 #bloc {
     display: flex;
-    background: rgb(165, 143, 143);
 }
 
 /* Bloc-gauche */
@@ -66,13 +89,12 @@ body {
     height: 50px;
     background-color: #222f3e;
     color: #54a0ff;
-    text-transform: uppercase;
     margin: 0;
 }
+
 .contact p {
     padding-left: 45px;
 }
-
 
 /* Bloc-droite */
 
@@ -83,31 +105,39 @@ body {
     
 }
 
-/* bloc-formation */
+/* bloc-formation - Experience */
 
-.formations {
+.articles {
     margin-left: 60px;
     margin-right: 45px;
 }
+
 .titre-droite {
-    text-transform: uppercase;
-    
+    border-bottom: 3px solid #54a0ff;
 }
 
-.date {
+.titre-droite i {
+    margin-right: 34px;
+    padding-bottom: 16px;
+}
+
+.bloc-formations {
     display: flex;
     align-items: flex-start;
     background: royalblue;
-    margin-top: 20px;
+    margin-top: 50px;
 }
-.date-2020 {
+
+.bloc-dates {
+    display: flex;
+    align-items: flex-start;
     width: 30%;
 }
-.date-2020 i {
-    margin-right: 10px;
+
+.bloc-details {
+    flex-grow: 1;
 }
-.detail {
-    
-}
+
+
 
 
