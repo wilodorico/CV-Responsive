@@ -12,8 +12,10 @@
     <title>CV Wilfried Odorico</title>
 </head>
 <body>
+
     <!-- Header -->
-    <header id="header">
+
+    <header>
         <div id="photo">
             <img src="images/photo.jpg" alt="photo profil">
         </div>
@@ -25,40 +27,39 @@
     </header>
 
     <!-- Bloc -->
-    <section id="bloc">
+    <main>
 
         <!-- Bloc-Gauche -->
         <aside id="bloc-gauche">
 
             <!-- Contact -->
-            <div class="contact">
+            <address class="contact">
                 <h2 class="titre-gauche">Contact</h2>
                 <p>Adresse<br> 7 rue jasmin<br> 47 600 Nérac</p>
-                <p>Téléphone <br>06 XX XX XX XX</p>
-                <p>Email <br>wilfried.odorico@gmail.com</p>
-                <p>Site web <br><a href="https://github.com/Facodeur"></a>https://github.com/Facodeur</p>
-            </div>
+                <p>Téléphone <br><a href="tel:+33600000000">06 XX XX XX XX</a></p>
+                <p>Email <br><a href="mailto:wilfried.odorico@gmail.com" title="Contactez moi !">wilfried.odorico@gmail.com</a></p>
+                <p>Site web <br><a href="https://github.com/Facodeur" target="_blank">https://github.com/Facodeur</a></p>
+            </address>
 
             <!-- À propos -->
             <div class="a_propos">
                 <h2 class="titre-gauche">À propos de moi</h2>
                 <p></p>
-            </div>
-
-            <!-- Loisirs -->
-            <div class="loisirs">
-                <h2 class="titre-gauche">Loisirs</h2>
+                
             </div>
         </aside>
 
 
-        <div id="bloc-droite">
+        <section id="bloc-droite">
 
-            <!-- Formations -->
-            <article class="articles">
+            <article id="formations">
+
                 <h2 class="titre-droite">
                     <i class="fas fa-graduation-cap"></i>Formations
                 </h2>
+                <ol>
+
+                </ol>
                     <div class="bloc-formations">
                         <div class="bloc-dates">
                             <i class="fas fa-bullseye"></i>
@@ -117,12 +118,12 @@
             </article>
 
             <!-- Expèriences Pro -->
-            <article class="articles">
+            <article id="experiences">
                 <h2 class="titre-droite">
                     <i class="fas fa-briefcase"></i>
                     Expériences Professionnelles
                 </h2>
-                    <div class="bloc-formations">
+                    <div class="bloc-experiences">
                         <div class="bloc-dates">
                             <i class="fas fa-bullseye"></i>
                             <h4>04/2020 - 10/2020 <br>Formation en ligne </h4>
@@ -134,7 +135,7 @@
                         </div>
                         
                     </div>
-                    <div class="bloc-formations">
+                    <div class="bloc-experiences">
                         <div class="bloc-dates">
                             <i class="fas fa-circle"></i>
                             <h4>2018 <br>Formation en ligne </h4>
@@ -146,7 +147,7 @@
                             <p>Techniques de mémorisation et de lecture rapide (active)</p> 
                         </div> 
                     </div>
-                    <div class="bloc-formations">
+                    <div class="bloc-experiences">
                         <div class="bloc-dates">
                             <i class="fas fa-circle"></i>
                             <h4>01/2017 - 03/2017</h4>
@@ -157,7 +158,7 @@
                             <p>Titre Professionnel cariste d'entrepôt, CACES R389 1, 3, 5</p> 
                         </div> 
                     </div>
-                    <div class="bloc-formations">
+                    <div class="bloc-experiences">
                         <div class="bloc-dates">
                             <i class="fas fa-circle"></i>
                             <h4>08/2003 au 12/2003</h4>
@@ -167,60 +168,40 @@
                             <p>CAP mécanique automobile "Sevice rapide"</p> 
                         </div> 
                     </div>
-                    <div class="bloc-formations">
-                        <div class="bloc-dates">
-                            <i class="fas fa-circle"></i>
-                            <h4>10/1997 - 10/1999</h4>
-                        </div>
-                        <div class="bloc-details">
-                            <h3>CFBTP Blanquefort(33)</h3>
-                            <p>CAP Miroitier </p> 
-                        </div> 
-                    </div>
             </article>
 
-            <!-- Footer -->
+            
+        </section>
+    </main>
 
-            <footer class="articles">
-                <h2 class="titre-droite">
-                    <i class="fas fa-pencil-alt"></i>
-                    Recommandations
-                </h2>
-                    <div class="bloc-formations">
-                        <div class="bloc-dates">
-                            <i class="fas fa-bullseye"></i>
-                            <h4>04/2020 - 10/2020 <br>Formation en ligne </h4>
-                            
-                        </div>
-                        <div class="bloc-details">
-                            <h3>openclassrooms</h3>
-                            <p>Développeur web</p> 
-                        </div>
-                        
-                    </div>
-                    
-                  
-            </footer>
-
-            <footer id="recommandation">
-                <h2 class="titre-droite">Recommandations</h2>
+    <!-- Footer -->
+   
+    <footer>
+        <!-- Loisirs -->
+        <aside class="loisirs">
+            <h2 class="titre-gauche">Loisirs</h2>
+            <div class="icone-loisirs">
+                <span class="cercle"><i class="fas fa-book"></i></span>
+                <span class="cercle"><i class="fas fa-running"></i></span>
+                <span class="cercle"><i class="fab fa-steam"></i></i></span>
+                
+            </div>
+        </aside>
+        <h2 class="titre-droite">
+            <i class="fas fa-pencil-alt"></i>
+            Recommandations
+        </h2>
+        
+            <div class="bloc-formations">
                 <div class="recommandation-g">
-                    
+            
 
                 </div>
                 <div class="recommandation-d">
                     
                     
-                </div>
-            </footer>
-
-        </div>
-
-        
-
-            </section>
-
-    
-
+                </div>  
+            </div>   
+    </footer>
 </body>
 </html>

@@ -23,7 +23,7 @@ h4 {
 
 /* Header */
 
-#header {
+header {
     display: flex;
     align-items: center;
     height: 300px;
@@ -69,7 +69,7 @@ h4 {
 
 /* Bloc */
 
-#bloc {
+main {
     display: flex;
 }
 
@@ -96,6 +96,14 @@ h4 {
     padding-left: 45px;
 }
 
+.contact a {
+    color: #222f3e;
+}
+
+.contact a:hover {
+    color: #fff;
+}
+
 /* Bloc-droite */
 
 #bloc-droite {
@@ -107,7 +115,7 @@ h4 {
 
 /* bloc-formation - Experience */
 
-.articles {
+article {
     margin-left: 60px;
     margin-right: 45px;
 }
@@ -121,10 +129,9 @@ h4 {
     padding-bottom: 16px;
 }
 
-.bloc-formations {
+.bloc-formations, .bloc-experiences {
     display: flex;
     align-items: flex-start;
-    background: royalblue;
     margin-top: 50px;
 }
 
@@ -136,6 +143,31 @@ h4 {
 
 .bloc-details {
     flex-grow: 1;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    
+}
+
+.loisirs {
+    background-color: #54a0ff;
+    width: 30%;
+}
+
+.icone-loisirs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cercle {
+    font-size: 60px;
+    border: 5px solid #222f3e;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 30px;
 }
 
 
