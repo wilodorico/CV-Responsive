@@ -1,5 +1,8 @@
 /* Général */
-
+:root {
+    --liseret-icone-color: #54a0ff;
+    --bandeau-color: #222f3e;
+}
 body {
   color: #222f3e;
   margin: 0;
@@ -14,7 +17,7 @@ h4, h3 {
 }
 
 .fas {
-    color: #54a0ff;
+    color: var(--liseret-icone-color);
     margin-right: 10px;
 }
 
@@ -31,6 +34,21 @@ li {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: var(--bandeau-color);
+    border-bottom: 1px solid transparent;
+ }
+
+ a:hover {
+    border-bottom: 1px solid var(--bandeau-color);
+    -webkit-transition:border-bottom .6s;
+    -moz-transition:border-bottom .6s;
+    -ms-transition:border-bottom .6s;
+    -o-transition:border-bottom .6s;
+    transition:border-bottom .6s;
+}
+
 /* Header */
 
 header {
@@ -45,7 +63,7 @@ header {
     align-items: center;
     height: 300px;
     width: 30%;
-    background-color: #54a0ff;
+    background-color: var(--liseret-icone-color);
 }
 
 #photo img {
@@ -70,11 +88,11 @@ header {
 }
 
 .color-text {
-    color: #54a0ff;
+    color: var(--liseret-icone-color);
 }
 
 .underline {
-    text-decoration: 2px underline #54a0ff;
+    text-decoration: 2px underline var(--liseret-icone-color);
 }
 
 /* Bloc */
@@ -89,7 +107,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 30%;
-    background-color: #54a0ff;
+    background-color: var(--liseret-icone-color);
 }
 
 #bloc-gauche h2 {
@@ -97,23 +115,13 @@ main {
     justify-content: center;
     align-items: center;
     height: 50px;
-    background-color: #222f3e;
-    color: #54a0ff;
+    background-color: var(--bandeau-color);
+    color: var(--liseret-icone-color);
     margin: 0;
 }
 
 .contact p {
     padding-left: 45px;
-}
-
-.contact a {
-    color: #222f3e;
-   text-decoration: none;
-}
-
-.contact a:hover {
-    color: #fff;
-    transition: color .3s;
 }
 
 /* Bloc-droite */
@@ -125,7 +133,7 @@ main {
 }
 
 #bloc-droite h2 {
-    border-bottom: 3px solid #54a0ff;
+    border-bottom: 3px solid var(--liseret-icone-color);
 }
 
 /* bloc-formation - Experience */
@@ -158,7 +166,7 @@ footer {
 }
 
 #loisirs {
-    background-color: #54a0ff;
+    background-color: var(--liseret-icone-color);
     width: 30%;
 }
 
@@ -167,8 +175,8 @@ footer {
     justify-content: center;
     align-items: center;
     height: 50px;
-    background-color: #222f3e;
-    color: #54a0ff;
+    background-color: var(--bandeau-color);
+    color: var(--liseret-icone-color);
     margin: 0;
 }
 
@@ -180,12 +188,12 @@ footer {
 }
 
 .icone-loisirs .fas {
-    color: #222f3e;
+    color: var(--bandeau-color);
 }
 
 .cercle {
     font-size: 60px;
-    border: 5px double #222f3e;
+    border: 5px double var(--bandeau-color);
     border-radius: 50%;
     padding: 15px;
     width: 70px;
@@ -204,7 +212,7 @@ footer {
 }
 
 #recommandations h2 {
-    border-bottom: 3px solid #54a0ff;
+    border-bottom: 3px solid var(--liseret-icone-color);
 }
 
 .bloc-recommandations {
@@ -220,16 +228,6 @@ footer {
 
 .bloc-recommandations p {
     margin: 5px 0;
-}
-
-.bloc-recommandations a {
-   text-decoration: none;
-   color: #222f3e;
-}
-
-.bloc-recommandations a:hover {
-    color: #54a0ff;
-    transition: color .3s;
 }
 
 .recommandation-g {
