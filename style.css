@@ -18,6 +18,19 @@ h4, h3 {
     margin-right: 10px;
 }
 
+h2 .fas {
+    margin-right: 34px;
+    padding-bottom: 16px;
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
 /* Header */
 
 header {
@@ -79,7 +92,7 @@ main {
     background-color: #54a0ff;
 }
 
-.titre-gauche {
+#bloc-gauche h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,10 +118,14 @@ main {
 
 /* Bloc-droite */
 
-.bloc-droite {
+#bloc-droite {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+}
+
+#bloc-droite h2 {
+    border-bottom: 3px solid #54a0ff;
 }
 
 /* bloc-formation - Experience */
@@ -116,15 +133,6 @@ main {
 article {
     margin-left: 60px;
     margin-right: 45px;
-}
-
-.titre-droite {
-    border-bottom: 3px solid #54a0ff;
-}
-
-.titre-droite i {
-    margin-right: 34px;
-    padding-bottom: 16px;
 }
 
 .bloc-formations, .bloc-experiences {
@@ -146,13 +154,22 @@ article {
 /* Footer */
 
 footer {
-    display: flex;
-    
+    display: flex;  
 }
 
-.loisirs {
+#loisirs {
     background-color: #54a0ff;
     width: 30%;
+}
+
+#loisirs h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #222f3e;
+    color: #54a0ff;
+    margin: 0;
 }
 
 .icone-loisirs {
@@ -180,10 +197,14 @@ footer {
     margin: 0;
 }
 
-.recommandations {
+#recommandations {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+}
+
+#recommandations h2 {
+    border-bottom: 3px solid #54a0ff;
 }
 
 .bloc-recommandations {
