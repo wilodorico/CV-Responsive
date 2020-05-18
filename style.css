@@ -13,12 +13,9 @@ h4, h3 {
     margin-top: 0;
 }
 
-h4 {
-    margin-left: 10px;
-}
-
 .fas {
     color: #54a0ff;
+    margin-right: 10px;
 }
 
 /* Header */
@@ -98,10 +95,12 @@ main {
 
 .contact a {
     color: #222f3e;
+   text-decoration: none;
 }
 
 .contact a:hover {
     color: #fff;
+    transition: color .3s;
 }
 
 /* Bloc-droite */
@@ -110,7 +109,6 @@ main {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    
 }
 
 /* bloc-formation - Experience */
@@ -177,6 +175,48 @@ footer {
     height: 70px;
     text-align: center;
 }
+
+.cercle .fas {
+    margin: 0;
+}
+
+.recommandations {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.bloc-recommandations {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.bloc-recommandations h4 {
+    text-transform: uppercase;
+    margin: 6px 0;
+}
+
+.bloc-recommandations p {
+    margin: 5px 0;
+}
+
+.bloc-recommandations a {
+   text-decoration: none;
+   color: #222f3e;
+}
+
+.bloc-recommandations a:hover {
+    color: #54a0ff;
+    transition: color .3s;
+}
+
+.recommandation-g {
+    width: 50%;
+}
+
+
+
 
 
 
