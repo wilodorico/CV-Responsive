@@ -131,12 +131,11 @@ main {
 
 /* Bloc-droite */
 
-#bloc-droite {
+#bloc-droite, #recommandations {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    margin-left: 60px;
-    margin-right: 45px;
+    margin: 0 60px;
 }
 
 #bloc-droite h2 {
@@ -207,14 +206,6 @@ footer {
     margin: 0;
 }
 
-#recommandations {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    margin-left: 60px;
-    margin-right: 45px;
-}
-
 #recommandations h2 {
     border-bottom: 3px solid var(--liseret-icone-color);
 }
@@ -268,7 +259,7 @@ footer {
         padding: 0;
     }
 
-    #bloc-droite, article {
+    #bloc-droite, #recommandations {
         margin: 0;
     }
 
