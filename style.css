@@ -131,10 +131,11 @@ main {
 
 /* Bloc-droite */
 
-#bloc-droite {
+#bloc-droite, #recommandations {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    margin: 0 60px;
 }
 
 #bloc-droite h2 {
@@ -142,11 +143,6 @@ main {
 }
 
 /* bloc-formation - Experience */
-
-article {
-    margin-left: 60px;
-    margin-right: 45px;
-}
 
 .bloc-formations, .bloc-experiences {
     display: flex;
@@ -210,12 +206,6 @@ footer {
     margin: 0;
 }
 
-#recommandations {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
 #recommandations h2 {
     border-bottom: 3px solid var(--liseret-icone-color);
 }
@@ -269,7 +259,7 @@ footer {
         padding: 0;
     }
 
-    #bloc-droite, article {
+    #bloc-droite, #recommandations {
         margin: 0;
     }
 
