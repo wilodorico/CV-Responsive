@@ -124,6 +124,11 @@ main {
     padding-left: 45px;
 }
 
+.a-propos p {
+    text-align: justify;
+    padding: 0 45px;
+}
+
 /* Bloc-droite */
 
 #bloc-droite {
@@ -231,6 +236,76 @@ footer {
 
 .recommandation-g {
     width: 50%;
+}
+
+/* Responsive design*/
+
+@media all and (max-width:1024px) {
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #photo {
+        width: 100%;
+    }
+
+    #titre {
+        margin: 0;
+        text-align: center;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    #bloc-gauche {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact p {
+        padding: 0;
+    }
+
+    article {
+        margin: 0;
+    }
+
+    article h2 {
+        background-color: #222f3e;
+        color: #54a0ff;
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: none;
+        margin: 0;
+    }
+    h2 .fas {
+        padding-bottom: 0;
+        color: #54a0ff;
+    }
+
+    ol {
+        margin: 0 10px;
+    }
+    
+    footer {
+        flex-direction: column-reverse;
+    
+    }
+
+    #loisirs {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .bloc-recommandations {
+        justify-content: space-around;  
+    }
+
+    .recommandation-g {
+        width: auto;
+    }
 }
 
 
