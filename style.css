@@ -305,6 +305,10 @@ footer {
         border-bottom: 1px solid var(--liseret-icone-color);
     }
 
+    ol li:last-child {
+        border-bottom: none;
+    }
+
     .bloc-dates {
         flex-direction: row;
         width: 100%;
