@@ -264,16 +264,15 @@ footer {
     }
 
     section h2, article h2 {
-        background-color: #222f3e;
-        color: #54a0ff;
+        background-color: var(--bandeau-color);
+        color: var(--liseret-icone-color);
         text-align: center;
         padding: 10px 0;
-        border-bottom: none;
         margin: 0;
     }
     h2 .fas {
         padding-bottom: 0;
-        color: #54a0ff;
+        color: var(--liseret-icone-color);
     }
 
     ol {
@@ -296,6 +295,23 @@ footer {
 
     .recommandation-g {
         width: auto;
+    }
+}
+
+@media all and (max-width:540px) {
+    
+    .bloc-formations, .bloc-experiences {
+        flex-direction: column;
+        border-bottom: 1px solid var(--liseret-icone-color);
+    }
+
+    .bloc-dates {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .bloc-details {
+        width: 100%;
     }
 }
 
