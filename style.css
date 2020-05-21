@@ -10,12 +10,12 @@
 }
 
 body {
+  font-family: 'Libre_Baskerville', sans-serif, Helvetica;
   color: var(--bandeau-color);
   margin: 0;
 }
 
 h1, h2, h3 {
-    font-family: 'Libre_Baskerville', sans-serif, Helvetica;
     text-transform: uppercase;
 }
 
@@ -24,7 +24,7 @@ h4, h3 {
 }
 
 h3 {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .fas {
@@ -69,7 +69,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 300px;
-    width: 30%;
+    width: 25%;
     background-color: var(--liseret-icone-color);
 }
 
@@ -113,7 +113,7 @@ main {
 #bloc-gauche {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 25%;
     background-color: var(--liseret-icone-color);
 }
 
@@ -175,7 +175,7 @@ footer {
 
 #loisirs {
     background-color: var(--liseret-icone-color);
-    width: 30%;
+    width: 25%;
 }
 
 #loisirs h2 {
@@ -200,12 +200,12 @@ footer {
 }
 
 .cercle {
-    font-size: 55px;
+    font-size: 35px;
     border: 5px double var(--bandeau-color);
     border-radius: 50%;
     padding: 15px;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     text-align: center;
 }
 
