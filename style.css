@@ -61,7 +61,6 @@ a {
 header {
     display: flex;
     align-items: center;
-    height: 300px;
 }
 
 #photo {
@@ -69,7 +68,8 @@ header {
     justify-content: center;
     align-items: center;
     height: 300px;
-    flex-basis: 25%;
+    width: 380px;
+    flex-shrink: 0;
     background-color: var(--liseret-icone-color);
 }
 
@@ -114,7 +114,8 @@ main {
 #bloc-gauche {
     display: flex;
     flex-direction: column;
-    flex-basis: 25%;
+    width: 380px;
+    flex-shrink: 0;
     background-color: var(--liseret-icone-color);
 }
 
@@ -171,12 +172,15 @@ main {
 /* Footer */
 
 footer {
-    display: flex;  
+    display: flex;
 }
 
 #loisirs {
+    display: flex;
+    flex-direction: column;
     background-color: var(--liseret-icone-color);
-    flex-basis: 25%;
+    width: 380px;
+    flex-shrink: 0;
 }
 
 #loisirs h2 {
@@ -192,8 +196,6 @@ footer {
 .icone-loisirs {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: 30px 0;
 }
 
 .icone-loisirs .fas {
@@ -212,6 +214,10 @@ footer {
 
 .cercle .fas {
     margin: 0;
+}
+
+#recommandations {
+    padding-bottom: 30px;
 }
 
 #recommandations h2 {
