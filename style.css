@@ -196,6 +196,7 @@ footer {
 .icone-loisirs {
     display: flex;
     justify-content: space-around;
+
 }
 
 .icone-loisirs .fas {
@@ -304,6 +305,10 @@ footer {
         margin-top: 20px;
     }
 
+    .icone-loisirs {
+        padding: 30px 0;
+    }
+
     .bloc-recommandations {
         justify-content: space-around;  
     }
@@ -337,7 +342,7 @@ footer {
 @media all and (max-width:400px) {
     .bloc-recommandations {
         justify-content: flex-start;
-        margin-left: 10px;
+        margin-top: 40px;
     }
 
     .recommandation-g {
