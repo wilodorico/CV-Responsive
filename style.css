@@ -129,13 +129,16 @@ main {
     margin: 0;
 }
 
-.contact p {
+address {
     padding: 0 40px;
 }
 
-.a-propos p {
-    text-align: justify;
+.texte-a-propos {
     padding: 0 40px;
+}
+
+.texte-a-propos p {
+    text-align: justify;
 }
 
 /* Bloc-droite */
@@ -316,7 +319,8 @@ footer {
 
     .bloc-recommandations {
         justify-content: space-around;
-        margin-top: 40px;  
+        margin-top: 40px;
+        padding: 0 10px; 
     }
 
     .recommandation-g {
@@ -345,25 +349,18 @@ footer {
     .bloc-details {
         width: 100%;
     }
-}
 
-@media all and (max-width:400px) {
-    
-    
     .bloc-recommandations {
-        justify-content: flex-start;
-        margin-top: 40px;
+        flex-direction: column;
     }
 
     .recommandation-g {
-        border-right: 1px solid var(--liseret-icone-color);
-    }
-    .recommandation-d {
-        margin-left: 5px;
+        border-bottom: 1px solid var(--liseret-icone-color);
+        padding-bottom: 20px;
     }
 
-    .recommandation-g, .recommandation-d {
-        padding: 0 5px;
+    .recommandation-d {
+        padding-top: 20px;
     }
 }
 
