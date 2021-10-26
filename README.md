@@ -1,3 +1,3 @@
-## OC-DW-P2
+## CV Responsive
 
-### https://facodeur.github.io/OC-DW-P2/
+### https://wilodorico.github.io/OC-DW-P2/
