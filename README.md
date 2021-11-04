@@ -1,3 +1,3 @@
 ## CV Responsive
 
-### https://wilodorico.github.io/OC-DW-P2/
+### https://wilodorico.github.io/CV-Responsive/
